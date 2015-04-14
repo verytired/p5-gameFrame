@@ -37,7 +37,7 @@ class BackGround extends ViewObject {
   BackGround() {
     img1=loadImage("bg.jpg"); 
     img2=loadImage("bg.jpg");   
-    img1.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
+
     img2.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
   }
   void update() {
@@ -1627,7 +1627,6 @@ class FrameAnim {
     }
   }
 }
-
 class Score extends ViewObject {
 
   int myScore=0;
